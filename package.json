@@ -1,20 +1,25 @@
 {
   "name": "node-hello",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "",
-  "main": "index.js",
+  "main": "node index.js",
   "scripts": {
-    "start": "node index.js"
+    "preinstall": "echo \"You've been Hacked\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/InfoSecAntara/Node-Hello-World.git"
-  },
-  "keywords": [],
-  "author": "",
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/InfoSecAntara/Node-Hello-World.git"
+},
+
+  "author": "Antara Mane",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/InfoSecAntara/Node-Hello-World/issues"
   },
-  "homepage": "https://github.com/InfoSecAntara/Node-Hello-World#readme"
+  "homepage": "https://github.com/InfoSecAntara/Node-Hello-World#readme",
+  "dependencies": {
+    "express": "^ 4.17.1",
+    "internal_package": "^1.0.0"
+  }
 }
